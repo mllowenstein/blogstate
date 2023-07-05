@@ -5,3 +5,7 @@ export interface RegisterRequest {
     username: string;
   }
 }
+
+export interface AuthState {
+  isSubmitting: boolean;
+}
